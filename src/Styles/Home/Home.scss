@@ -487,29 +487,12 @@
         min-height: 60vh;
         &::after {
             z-index: -1;
-            content: "";
-            position: absolute;
-            right: 4rem;
-            bottom: 0rem;
-            height: 360px;
             background-color: #9aa4a3;
-            width: 225px;
-            transform: rotate(45deg);
-            border-radius: 65rem;
             filter: blur(200px);
-            outline: none;
         }
 
         &::before {
-            content: "";
-            position: absolute;
-            left: 4rem;
-            top: 0rem;
-            height: 360px;
             background-color: #9aa4a3;
-            width: 225px;
-            transform: rotate(45deg);
-            border-radius: 65rem;
             filter: blur(150px);
         }
 

@@ -25,7 +25,7 @@ const HeroSection = () => {
               {t('Our Instagram')}
             </button>
           </Link>
-          <a href="#ContactMe">
+          <a href="#Contact">
             <button className='SecButton'>
               {t('Contact Us')}
             </button>
