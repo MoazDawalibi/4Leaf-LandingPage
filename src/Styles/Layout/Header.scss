@@ -117,17 +117,7 @@
 .Header50px {
     transition: .3s ease-in-out;
     background-color: var(--white) !important;
-       
-    .Logo {
 
-        // width: 200px;
-        // height: 40px;
-        // background-image: url('../../assets/img/KarimLogoDark.svg');
-        // background-repeat: no-repeat;
-        // background-size: contain
-        
-    }
-    
         nav {
             @include Flex;
             z-index: 5;
