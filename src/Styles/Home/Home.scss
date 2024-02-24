@@ -25,9 +25,9 @@
             width: 225px;
             transform: rotate(45deg);
             border-radius: 65rem;
-            -webkit-filter: blur(100px);
-            -moz-filter: blur(100px);
-            -ms-filter: blur(100px);
+            // -webkit-filter: blur(100px);
+            // -moz-filter: blur(100px);
+            // -ms-filter: blur(100px);
             filter: blur(100px);
             outline: none;
         }
@@ -477,7 +477,6 @@
 
 
         >h1 {
-            // visibility: hidden;
             animation: fadeInBottom 1s ease-in-out;
 
             &::after {
@@ -489,7 +488,6 @@
         }
 
         >p {
-            // visibility: hidden;
             animation: fadeInBottom 1.4s ease-in-out;
 
         }
