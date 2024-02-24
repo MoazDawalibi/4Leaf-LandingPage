@@ -3,7 +3,6 @@ import { Route, Routes } from 'react-router-dom';
 import Layout from './Layout/Ui/Layout';
 import { routes } from './config/Routes';
 import { Spin } from 'antd';
-import useDisableShortcutsAndRightClick from './Hooks/useDisableShortcutsAndRightClick';
 
 const App = () => {
   // useDisableShortcutsAndRightClick()

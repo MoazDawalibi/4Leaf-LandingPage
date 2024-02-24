@@ -25,9 +25,6 @@
             width: 225px;
             transform: rotate(45deg);
             border-radius: 65rem;
-            // -webkit-filter: blur(100px);
-            // -moz-filter: blur(100px);
-            // -ms-filter: blur(100px);
             filter: blur(100px);
             outline: none;
         }
@@ -39,15 +36,10 @@
             top: 0rem;
             height: 360px;
             background-color: #9aa4a3;
-            // opacity: .1;
             width: 225px;
             transform: rotate(45deg);
             border-radius: 65rem;
-            // -webkit-filter: blur(200px);
-            // -moz-filter: blur(200px);/
-            // -ms-filter: blur(200px);
             filter: blur(100px);
-            // outline: none;
         }
 
         .in_HeroSection {
@@ -58,11 +50,6 @@
             width: fit-content;
             margin-inline: auto;
             padding-top: clamp(10vw,120px,30vh);
-            
-            // visibility: hidden;
-
-
-
             >h1 {
                 font-size: 6vw;
                 text-align: center;
@@ -80,12 +67,10 @@
                     bottom: -20px;
                     width: 230px;
                     height: 20px;
-
                     background-image: url('../../assets/img/UnderCurle.svg');
                     background-size: contain;
                     background-repeat: no-repeat;
                     z-index: 3;
-
                 }
 
             }
@@ -147,46 +132,36 @@
                         transform: translateY(10px);
                     }
                 }
-
             }
-
             .LogoCards {
                 width: 90vw;
                 padding-block: 50px;
                 animation: fade 6s ease-in-out;
                 animation-fill-mode: forwards;
-
                 @keyframes fade {
                     from {
                         opacity: 0;
                         transform: translate3d(-1600px, 0, 0);
                         width: 20vw;
                     }
-
                     to {
                         opacity: 1;
                         transform: none;
                         width: 90vw;
-
                     }
                 }
-
-
                 .LogoCard {
                     img {
                         width: 100px;
                         height: 50px;
                         cursor: pointer;
-
                     }
-
                 }
             }
-
         }
-
-
     }
+
+
     .PowerfulFeatures {
         position: relative;
         margin-block: 40px;
@@ -200,9 +175,6 @@
             justify-content: center;
             align-items: center;
             gap: 30px;
-
-
-
             &::after {
                 content: " ";
                 position: absolute;
@@ -229,8 +201,6 @@
                 top: 90% !important;
                 left: 0;
             }
-
-
             .Features {
                 display: flex;
                 gap: 5vw;
