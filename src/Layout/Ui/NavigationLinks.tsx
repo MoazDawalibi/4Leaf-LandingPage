@@ -50,7 +50,7 @@ export const NavigationLinks = ({ className }: any) => {
             </Link>
             <FloatButton onClick={()=>{
               currentLanguage === "en" ? changeLanguage("ar")  : changeLanguage("en")
-          }} icon={<FaLanguage />} />
+            }} icon={<FaLanguage />} className='floatButt' />
             </>
             :
             ""

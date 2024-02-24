@@ -212,7 +212,9 @@
     .Links {
         display: none !important;
     }
-
+    .floatButt{
+        z-index: 999999 !important;
+    }
     .Header {
 
         h1 {
