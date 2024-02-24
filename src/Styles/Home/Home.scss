@@ -486,6 +486,7 @@
     .HeroSection {
         min-height: 60vh;
         &::after {
+            display: none;
             z-index: -1;
         }
 
