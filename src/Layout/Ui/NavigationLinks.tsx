@@ -48,9 +48,11 @@ export const NavigationLinks = ({ className }: any) => {
             >
               {link.label}
             </Link>
+            <div className='floatButt'>
             <FloatButton onClick={()=>{
               currentLanguage === "en" ? changeLanguage("ar")  : changeLanguage("en")
-            }} icon={<FaLanguage />} className='floatButt' />
+            }} icon={<FaLanguage />}  />
+            </div>
             </>
             :
             ""

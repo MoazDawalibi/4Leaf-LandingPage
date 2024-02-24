@@ -173,6 +173,14 @@
     }
 }
 @media screen and (max-width: 700px) {
+    
+    .floatButt{
+        // width: 78%;
+        z-index: 99999 !important;
+    }
+    .ant-drawer-mask{
+        z-index: 0 !important;
+    }
     .Logo {
         width: 50px !important;
         height: 50px !important;
@@ -211,9 +219,6 @@
 
     .Links {
         display: none !important;
-    }
-    .floatButt{
-        z-index: 999999 !important;
     }
     .Header {
 
