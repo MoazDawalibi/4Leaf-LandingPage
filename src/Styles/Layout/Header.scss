@@ -185,12 +185,26 @@
 
 
     }
+    .MenuNav {
+        display: block;
+        
     :where(.css-dev-only-do-not-override-1xg9z9n).ant-btn-primary {
         background: #9aa4a3 !important;
     }
-
-    .MenuNav {
-        display: block;
+    :where(.css-dev-only-do-not-override-y8x9xp).ant-btn-primary{
+        background-color: #9aa4a3 !important;
+    }
+    :where(.css-dev-only-do-not-override-1xg9z9n).ant-btn-primary{
+        background: #9aa4a3 !important;
+    }
+    .ant-space-item{
+        background: #9aa4a3 !important;  
+        border-radius: 10px;
+    }
+    .ant-space {
+        background: #9aa4a3 !important;
+        border-radius: 10px;
+    }
     }
 
     .Links {
