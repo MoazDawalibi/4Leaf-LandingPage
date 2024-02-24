@@ -173,13 +173,12 @@
     }
 }
 @media screen and (max-width: 700px) {
-    
-    .floatButt{
-        // width: 78%;
-        z-index: 99999 !important;
-    }
-    .ant-drawer-mask{
-        z-index: 0 !important;
+
+    .en{
+        :where(.css-dev-only-do-not-override-1xg9z9n).ant-float-btn-circle{
+            // transform: translateX(20px);
+            z-index: 9999999999999999 !important;
+        }
     }
     .Logo {
         width: 50px !important;
@@ -195,6 +194,15 @@
     }
     .MenuNav {
         display: block;
+            
+    .floatButt{
+        .css-dev-only-do-not-override-1xg9z9n {
+            display: none;
+        }
+        display: none;
+        z-index: 99999 !important;
+        transform: translateX(-100px) !important;
+    }
     :where(.css-y8x9xp).ant-btn-primary{
         background: #9aa4a3 !important;
     }
