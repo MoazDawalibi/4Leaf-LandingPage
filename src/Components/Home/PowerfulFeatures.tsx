@@ -10,14 +10,14 @@ const PowerfulFeatures = () => {
   const { t } = useTranslation();
 
   const skillsData = [
-    { title: t('Acessories'),price:"3,000 S.P", imgSrc:"/icons/bracelet.svg" },
-    { title: t('Sunglasses'),price:"4,000 S.P", icon: <FaGlasses /> },
-    { title: t('Mobile Cases'),price:"4,000 S.P", icon: <CiMobile3 /> },
-    { title: t('Makeup'),price:"4,000 S.P", imgSrc:"/icons/makeup.svg" },
-    { title: t('Winter Clothes'),price:"10,000 S.P", imgSrc:"/icons/hoody.svg" },
-    { title: t('Summer Clothes'),price:"7,000 S.P", icon: <FaShirt /> },
-    { title: t('Bags'),price:"10,000 S.P", icon: <FaBagShopping /> },
-    { title: t('Shoes'),price:"10,000 S.P", imgSrc:"/icons/shoe.svg" },
+    { title: t('Acessories'),price:"5,000 S.P", imgSrc:"/icons/bracelet.svg" },
+    { title: t('Sunglasses'),price:"6,000 S.P", icon: <FaGlasses /> },
+    { title: t('Mobile Cases'),price:"6,000 S.P", icon: <CiMobile3 /> },
+    { title: t('Makeup'),price:"6,000 S.P", imgSrc:"/icons/makeup.svg" },
+    { title: t('Winter Clothes'),price:"15,000 S.P", imgSrc:"/icons/hoody.svg" },
+    { title: t('Summer Clothes'),price:"12,000 S.P", icon: <FaShirt /> },
+    { title: t('Bags'),price:"15,000 S.P", icon: <FaBagShopping /> },
+    { title: t('Shoes'),price:"15,000 S.P", imgSrc:"/icons/shoe.svg" },
   ];
 
   return (
