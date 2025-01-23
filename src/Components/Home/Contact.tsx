@@ -15,14 +15,14 @@ const Contact: React.FC = () => {
     <div className="Contact" id="Contact">
       <div>
         <h1>{t('Contact Us')}</h1>
-        <p>{t('Send your to our page messages by scaning this code or clicking on the link')}.</p>
+        <p>{t('Send your messages to our page by scaning this code or clicking on the link')}.</p>
         <ContactImage />
       </div>
       <div className='right'>
         <div className='PageLink'>
           <span>{t("Click on this link")}:</span><br/>
           <Link className='Link' to={"https://www.instagram.com/4leaf_shein?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr"}>
-            4LeafShein@instagram.com 
+            4Leaf@instagram.com 
           </Link>
         </div>
         <img src='/QR.jpeg' className='QRCode'/>

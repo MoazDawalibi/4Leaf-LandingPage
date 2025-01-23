@@ -275,7 +275,7 @@
                     &:nth-child(3),
                     &:nth-child(4) {
                         color: #fff !important;
-                        animation: itemopacity 2s ease-in-out;
+                        animation: itemopacity .8s ease-in-out;
 
                     }
 
@@ -284,7 +284,7 @@
                     &:nth-child(7),
                     &:nth-child(8)
                     {
-                        animation: itemopacity2 3s ease-in-out;
+                        animation: itemopacity2 1.5s ease-in-out;
 
                     }
                     &:nth-child(9),
@@ -292,11 +292,11 @@
                     &:nth-child(11),
                     &:nth-child(12)
                     {
-                        animation: itemopacity2 4s ease-in-out;
+                        animation: itemopacity2 2s ease-in-out;
                     }
                     &:nth-child(13)
                     {
-                        animation: itemopacity2 5s ease-in-out;
+                        animation: itemopacity2 2.3s ease-in-out;
                     }
                       @keyframes itemopacity2 {
                         from {

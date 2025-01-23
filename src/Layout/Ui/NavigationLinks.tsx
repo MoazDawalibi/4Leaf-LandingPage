@@ -20,6 +20,7 @@ export const NavigationLinks = ({ className }: any) => {
     { label: t('Delivery Prices & Features'), to: '#features' },
     // { label: t('education'), to: '#education' },
     // { label: t('Delivery Prices'), to: '#Prices' },
+    { label: t('About Us'), to: '#About' },
     { label: t('Contact Us'), to: '#Contact' },
     { label: t(''), to: '' },
   ];

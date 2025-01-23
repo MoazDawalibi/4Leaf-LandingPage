@@ -12,12 +12,12 @@ const HeroSection = () => {
         <h1>
           {/* {t('hero.name')} */}
           {/* <br /> */}
-          {t('Four Leaf Shein')}
+          {t('Four Leaf ')}
         </h1>
         <p>
-          {t('Welcome to the page, and God willing, you will be happy with the dealings and prices')}.
-          <strong> {t('This is a brief summary of the page We will bring you your orders from Shein In principle')},</strong>
-          {t('We will charge shipping fees that suit everyone, and God willing, we will continue to work with you')}.
+          {t('We are excited to have you here')}!
+          <strong> {t('Our mission is')} </strong>
+          {t('to make shopping easier for you by bringing your favorite products from international e-commerce platforms like Shein, Amazon, and Trendyol etc... right to your doorstep')}.
         </p>
         <div className='Buttons'>
           <Link to={"https://www.instagram.com/4leaf_shein?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr"}>

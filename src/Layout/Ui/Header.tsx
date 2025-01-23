@@ -18,7 +18,7 @@ const Header = () => {
       <header className='Header'>
         <Link to='/#Home'>
           {/* <div className='Logo' role='img' aria-label='Logo' /> */}
-        <img src='/Logo.jpg' className='Logo' />
+        <img src='/4Leaf.png' className='Logo' />
         </Link>
         <nav className='Nav'>
            <NavigationLinks className="Links" />

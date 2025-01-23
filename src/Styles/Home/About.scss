@@ -1,0 +1,34 @@
+.about{
+    display: flex;
+    h4{
+        font-size: 30px;
+        font-weight: bold;
+        color: var(--white);
+    }
+
+    .about_image {
+        z-index: 99999;
+        width: 45vw;
+        height: 30vw;
+      }
+}
+
+
+@media screen and (max-width: 768px) {
+    .about{
+        .about_image{
+            margin-inline: auto;
+            height: 50vw !important;
+            width: 70vw !important;
+        }
+    }
+  }
+  
+@media screen and (max-width: 480px) {
+    .about{      
+        .about_image{
+        height: 60vw !important;
+        width: 70vw !important;
+        }
+    }
+}

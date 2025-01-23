@@ -13,7 +13,7 @@ import { PiPantsLight } from "react-icons/pi";
 const PowerfulFeatures = () => {
   const { t } = useTranslation();
 
-  const skillsData = [
+  const skillsData:any = [
     { title: t('Acessories'),price:"7,000 S.P", imgSrc:"/icons/bracelet.svg" },
     { title: t('Sunglasses'),price:"8,000 S.P", icon: <FaGlasses /> },
     { title: t('Mobile Cases'),price:"8,000 S.P", icon: <CiMobile3 /> },
@@ -29,7 +29,7 @@ const PowerfulFeatures = () => {
     { title: t('Mobile Acessories'),price:"7,000 S.P", icon: <MdMobileScreenShare /> },
     { title: t('Dresses'),price:"20,000 S.P", icon: <GiAmpleDress /> },
     
-    { title: t('Others'),price:"Depends On Sizes", icon:<MdOutlineProductionQuantityLimits/> },
+    { title: t('Others'),price:t("Depends On Sizes"), icon:<MdOutlineProductionQuantityLimits/> },
 
   ];
 
