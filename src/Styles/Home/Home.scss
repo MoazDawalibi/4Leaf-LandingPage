@@ -371,16 +371,16 @@
             line-height: 20px;
             width: 350px;
             span{
-              color: #fff ;  
+              color: var(--black) ;  
               font-size: 25px;
               font-weight: bold;
             }
             .Link{
                 font-size: 25px;
-                color: #000;
+                color: var(--subtext);
                 font-weight: 900;
                 &:hover{
-                    color: #fff;
+                    color: #000;
                 }
             }
         }
