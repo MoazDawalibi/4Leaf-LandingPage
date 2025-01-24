@@ -497,7 +497,7 @@
             background-color: #9aa4a3;
             filter: blur(200px);
         }
-
+        
         &::before {
             background-color: #9aa4a3;
             filter: blur(150px);
@@ -506,6 +506,10 @@
 
         .in_HeroSection {
             >h1 {
+                &::after{
+                    right: -20px;
+
+                }
                 font-size: 8vw;
             }
             >p {
@@ -610,6 +614,7 @@ form{
     p{
         font-size: 30px;
     }
+
 .ant-spin .ant-spin-dot-item{
     background-color: var(--primary) !important;
     width: 10px;height: 10px;

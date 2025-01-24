@@ -15,8 +15,7 @@ const App = () => {
           path={route.path}
           element={
             <Suspense fallback={<Loading/>}>
-              <Loading />
-              {/* {route.withLayout ? <Layout>{route.element}</Layout> : route.element} */}
+              {route.withLayout ? <Layout>{route.element}</Layout> : route.element}
             </Suspense>
           }
         />
