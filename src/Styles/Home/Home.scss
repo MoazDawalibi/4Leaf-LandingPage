@@ -1,27 +1,27 @@
 .Layout{
-    background: #23df68;
+    background: var(--bg);
 
 }
 .Home_Page {
-    background: #17de60c6;
+    background: var(--bg);
     width: 100%;
     scroll-behavior: smooth;
-    border-bottom: 3px solid #fff;
+
     .HeroSection {
         overflow: hidden;
         width: 100%;
         min-height: 100vh;
-        background-color: #17de60c6;
+        background: var(--bg);
         color: var(--white);
         position: relative;
-
+        // border-bottom: 2px solid var(--primary);
         &::after {
             content: "";
             position: absolute;
             right: 4rem;
             bottom: 0rem;
             height: 360px;
-            background-color: #9aa4a3;
+            background-color: var(--subtext);
             width: 225px;
             transform: rotate(45deg);
             border-radius: 65rem;
@@ -35,7 +35,7 @@
             left: 4rem;
             top: 0rem;
             height: 360px;
-            background-color: #9aa4a3;
+            background-color: var(--subtext);
             width: 225px;
             transform: rotate(45deg);
             border-radius: 65rem;
@@ -53,7 +53,7 @@
             >h1 {
                 font-size: 6vw;
                 text-align: center;
-                background: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 1) 35%, rgba(255, 255, 255, 0.21) 100%);
+                background: -webkit-linear-gradient(-45deg, var(--primary) 35%, rgba(35, 223, 104, 0.21) 100%);
                 background-clip: text;
                 -webkit-text-fill-color: transparent;
                 text-align: center;
@@ -80,7 +80,7 @@
                 width: 60%;
                 text-align: center;
                 margin-block: 50px;
-                color: var(--white);
+                color: var(--primary);
             }
 
             .Buttons {
@@ -88,34 +88,20 @@
                 gap: 5px;
 
                 button {
-                    background: var(--primary);
-                    color: var(--white);
+                    background: transparent;
+                    color: var(--primary);
                     font-weight: bold;
                     padding: .7vw 4vw;
                     z-index: 999999 !important;
                     border-radius: 30px;
                     outline: none;
-                    border: 1px solid var(--primary);
+                    border: 3px solid var(--primary);
                     font-size: 1.4vw;
-
                     &:hover {
-                        background: transparent;
-                        border-color: var(--white);
-
-                    }
-                }
-
-                .SecButton {
-                    background: transparent;
-                    border-color: var(--white);
-
-                    &:hover {
-                        border-color: var(--primary);
+                        color: var(--white);
                         background: var(--primary);
-
                     }
                 }
-
             }
 
             >span {
@@ -165,8 +151,10 @@
     .PowerfulFeatures {
         position: relative;
         margin-block: 40px;
+        // border-bottom: 2px solid var(--primary);
+        // padding-bottom: 30px;
         .title{
-            color: #fff !important;
+            color: var(--primary) !important;
             font-size: 50px;
         }
         .in {
@@ -206,19 +194,25 @@
                 gap: 5vw;
                 justify-content: center;
                 flex-wrap: wrap;
-                color: #fff;
+                color: var(--white);
                 .prices{
-                    color: #fff;
+                    color: var(--white);
                     font-weight: bold;
+                    flex-wrap: wrap !important;
+                    display: flex;align-items: center;justify-content: center;
                     span{
                         font-weight: 900;
-                        color: #fff;
+                        color: var(--white);
                     }
                 }
                 .feature_image{
                     width: 100px;
-                    color: #fff !important; 
+                    color: var(--primary);
                     height: 60px;
+                    background: transparent !important;
+                    // mix-blend-mode: multiply; /* or screen, lighten, etc., based on your need */
+                    background: var(--primary);
+                    color: #fff; 
                 }
                 .Feature {
                     &:nth-child(1){
@@ -255,7 +249,7 @@
                         // }
                     }    
                     z-index: 2;
-                    background-color: #9aa4a3;
+                    background-color: var(--primary);
                     // color: ;
                     @include Shadow;
                     border-radius: 8px;
@@ -360,9 +354,11 @@
     margin-block: 50px;
     display: flex;
     align-items: center;
-
     padding: 5vw 10vw;
     gap: 50px;
+    h4{
+        color: var(--black);
+    }
     .right{
         display: flex;justify-content: center;align-items: center;flex-direction: column;
         .QRCode{
@@ -398,12 +394,12 @@
     }
     >div {
         h1 {
-            color: #fff;
+            color: var(--primary) !important;
             font-size: 4.5vw;
         }
 
         p {
-            color: #fff;
+            color: var(--subtext);
             font-size: 1.4vw;
         }
 

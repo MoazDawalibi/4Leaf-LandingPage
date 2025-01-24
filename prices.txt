@@ -1,0 +1,19 @@
+  const skillsData:any = [
+    { title: t('Acessories'),price:"7,000 S.P", imgSrc:"/icons/bracelet.svg" },
+    { title: t('Sunglasses'),price:"8,000 S.P", icon: <FaGlasses /> },
+    { title: t('Mobile Cases'),price:"8,000 S.P", icon: <CiMobile3 /> },
+    { title: t('Makeup'),price:"8,000 S.P", imgSrc:"/icons/makeup.svg" },
+
+    { title: t('Winter Clothes'),price:"18,000 S.P", imgSrc:"/icons/hoody.svg" },
+    { title: t('Summer Clothes'),price:"15,000 S.P", icon: <FaShirt /> },
+    { title: t('Bags'),price:"18,000 S.P", icon: <FaBagShopping /> },
+    { title: t('Shoes'),price:"18,000 S.P", imgSrc:"/icons/shoe.svg" },
+    
+    { title: t('Pants'),price:"18,000 S.P", icon:<PiPantsLight/> },
+    { title: t('Watches'),price:"10,000 S.P", icon: <IoWatch /> },
+    { title: t('Mobile Acessories'),price:"7,000 S.P", icon: <MdMobileScreenShare /> },
+    { title: t('Dresses'),price:"20,000 S.P", icon: <GiAmpleDress /> },
+    
+    { title: t('Others'),price:t("Depends On Sizes"), icon:<MdOutlineProductionQuantityLimits/> },
+
+  ];

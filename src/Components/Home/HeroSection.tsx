@@ -17,7 +17,10 @@ const HeroSection = () => {
         <p>
           {t('We are excited to have you here')}!
           <strong> {t('Our mission is')} </strong>
+          {t('to make shopping easier for you by bringing your favorite products from international e-commerce platforms like Shein and ... soon :)  right to your doorstep')}.
+          {/* 
           {t('to make shopping easier for you by bringing your favorite products from international e-commerce platforms like Shein, Amazon, and Trendyol etc... right to your doorstep')}.
+          */}
         </p>
         <div className='Buttons'>
           <Link to={"https://www.instagram.com/4leaf_shein?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr"}>

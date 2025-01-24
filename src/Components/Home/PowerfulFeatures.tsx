@@ -9,25 +9,26 @@ import { GiAmpleDress } from "react-icons/gi";
 import { IoWatch } from "react-icons/io5";
 import { MdMobileScreenShare,MdOutlineProductionQuantityLimits } from "react-icons/md";
 import { PiPantsLight } from "react-icons/pi";
+import { GiMonclerJacket } from "react-icons/gi";
 
 const PowerfulFeatures = () => {
   const { t } = useTranslation();
 
   const skillsData:any = [
-    { title: t('Acessories'),price:"7,000 S.P", imgSrc:"/icons/bracelet.svg" },
-    { title: t('Sunglasses'),price:"8,000 S.P", icon: <FaGlasses /> },
-    { title: t('Mobile Cases'),price:"8,000 S.P", icon: <CiMobile3 /> },
-    { title: t('Makeup'),price:"8,000 S.P", imgSrc:"/icons/makeup.svg" },
+    { title: t('Acessories'),price:"5,000 S.P", imgSrc:"/icons/bracelet.svg" },
+    { title: t('Sunglasses'),price:"6,000 S.P", icon: <FaGlasses /> },
+    { title: t('Mobile Cases'),price:"6,000 S.P", icon: <CiMobile3 /> },
+    { title: t('Makeup'),price:"6,000 S.P", imgSrc:"/icons/makeup.svg" },
 
-    { title: t('Winter Clothes'),price:"18,000 S.P", imgSrc:"/icons/hoody.svg" },
-    { title: t('Summer Clothes'),price:"15,000 S.P", icon: <FaShirt /> },
-    { title: t('Bags'),price:"18,000 S.P", icon: <FaBagShopping /> },
-    { title: t('Shoes'),price:"18,000 S.P", imgSrc:"/icons/shoe.svg" },
+    { title: t('Winter Clothes'),price:"15,000 S.P", icon:<GiMonclerJacket/> },
+    { title: t('Summer Clothes'),price:"12,000 S.P", icon: <FaShirt /> },
+    { title: t('Bags'),price:"15,000 S.P", icon: <FaBagShopping /> },
+    { title: t('Shoes'),price:"15,000 S.P", imgSrc:"/icons/shoe.svg" },
     
-    { title: t('Pants'),price:"18,000 S.P", icon:<PiPantsLight/> },
-    { title: t('Watches'),price:"10,000 S.P", icon: <IoWatch /> },
-    { title: t('Mobile Acessories'),price:"7,000 S.P", icon: <MdMobileScreenShare /> },
-    { title: t('Dresses'),price:"20,000 S.P", icon: <GiAmpleDress /> },
+    { title: t('Pants'),price:"15,000 S.P", icon:<PiPantsLight/> },
+    { title: t('Watches'),price:"8,000 S.P", icon: <IoWatch /> },
+    { title: t('Mobile Acessories'),price:"5,000 S.P", icon: <MdMobileScreenShare /> },
+    { title: t('Dresses'),price:"18,000 S.P", icon: <GiAmpleDress /> },
     
     { title: t('Others'),price:t("Depends On Sizes"), icon:<MdOutlineProductionQuantityLimits/> },
 

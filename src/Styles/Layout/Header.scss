@@ -15,7 +15,7 @@
     width: 100%;
     padding-inline: 4%;
     transition: .3s ease-in-out;
-
+    background: var(--white);
     .Logo {
         width: 80px;
         height: 80px;
@@ -34,17 +34,12 @@
 
             svg {
                 height: 45px;
-                // cursor: pointer;
-
             }
-
-
             li {
                 all: unset;
                 @include underLineText(#ceced3, #ceced3);
                 padding-bottom: 1px;
-                // color: var(--subtext);
-                color: #fff;
+                color: var(--primary);
                 font-size: 1.5vw;
 
                 &:hover{
@@ -116,7 +111,7 @@
 
 .Header50px {
     transition: .3s ease-in-out;
-    background-color: var(--white) !important;
+    background-color: var(--primary) !important;
 
         nav {
             @include Flex;
@@ -131,9 +126,9 @@
                     all: unset;
                     @include underLineText(var(--primary), var(--primary));
                     padding-bottom: 1px;
-                    color: var(--black);
-                    opacity: .6;
-    
+                    color: var(--white);
+                    // opacity: .6;
+                    font-size: 20px;
                     &:hover{
                         color: var(--black) !important;
     
