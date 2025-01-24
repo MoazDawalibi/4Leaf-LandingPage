@@ -80,7 +80,7 @@
                 width: 60%;
                 text-align: center;
                 margin-block: 50px;
-                color: var(--primary);
+                color: var(--subtext);
             }
 
             .Buttons {
@@ -509,8 +509,9 @@
                 font-size: 8vw;
             }
             >p {
-                font-size:3.3vw !important;
+                font-size:3.8vw !important;
                 width: 80%;
+                font-weight: bold;
             }
             .Buttons {
                 display: flex;
