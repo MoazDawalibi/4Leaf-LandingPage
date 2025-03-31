@@ -20,15 +20,15 @@ const PowerfulFeatures = () => {
     { title: t('Mobile Cases'),price:"6,000 S.P", icon: <CiMobile3 /> },
     { title: t('Makeup'),price:"6,000 S.P", imgSrc:"/icons/makeup.svg" },
 
-    { title: t('Winter Clothes'),price:"15,000 S.P", icon:<GiMonclerJacket/> },
-    { title: t('Summer Clothes'),price:"12,000 S.P", icon: <FaShirt /> },
-    { title: t('Bags'),price:"15,000 S.P", icon: <FaBagShopping /> },
-    { title: t('Shoes'),price:"15,000 S.P", imgSrc:"/icons/shoe.svg" },
+    { title: t('Winter Clothes'),price:"10,000 S.P", icon:<GiMonclerJacket/> },
+    { title: t('Summer Clothes'),price:"10,000 S.P", icon: <FaShirt /> },
+    { title: t('Bags'),price:"10,000 S.P", icon: <FaBagShopping /> },
+    { title: t('Shoes'),price:"10,000 S.P", imgSrc:"/icons/shoe.svg" },
     
-    { title: t('Pants'),price:"15,000 S.P", icon:<PiPantsLight/> },
-    { title: t('Watches'),price:"8,000 S.P", icon: <IoWatch /> },
+    { title: t('Pants'),price:"10,000 S.P", icon:<PiPantsLight/> },
+    { title: t('Watches'),price:"6,000 S.P", icon: <IoWatch /> },
     { title: t('Mobile Acessories'),price:"5,000 S.P", icon: <MdMobileScreenShare /> },
-    { title: t('Dresses'),price:"18,000 S.P", icon: <GiAmpleDress /> },
+    { title: t('Dresses'),price:"12,000 S.P", icon: <GiAmpleDress /> },
     
     { title: t('Others'),price:t("Depends On Sizes"), icon:<MdOutlineProductionQuantityLimits/> },
 
