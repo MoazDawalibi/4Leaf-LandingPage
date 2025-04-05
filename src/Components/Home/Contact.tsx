@@ -25,7 +25,10 @@ const Contact: React.FC = () => {
             4Leaf@instagram.com 
           </Link>
         </div>
-        <img src='/QR.JPG' className='QRCode'/>
+        <div className='qr_container'>
+          <img src='/QR.JPG' className='QRCode'/>
+
+        </div>
       </div>
     </div>
   );

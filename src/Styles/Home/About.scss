@@ -12,7 +12,13 @@
         height: 30vw;
       }
 }
-
+.about{
+    div{
+        h4{
+            color: var(--fourthly) !important;
+        }
+    }
+}
 
 @media screen and (max-width: 768px) {
     .about{

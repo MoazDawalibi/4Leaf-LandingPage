@@ -361,9 +361,17 @@
     }
     .right{
         display: flex;justify-content: center;align-items: center;flex-direction: column;
-        .QRCode{
+        .qr_container{
+            display: flex;align-items: center;justify-content: center;
             width: 50%;
-            border-radius:10px;
+            background: var(--primary);
+            border-radius:15px;
+            .QRCode{
+                padding: 15px;
+                width: 100%;
+                border-radius:15px !important;
+            }
+
         }
         .PageLink{
             display: flex; align-items: center;flex-direction: column;
@@ -371,7 +379,7 @@
             line-height: 20px;
             width: 350px;
             span{
-              color: var(--black) ;  
+              color: var(--fourthly) ;  
               font-size: 25px;
               font-weight: bold;
             }
@@ -380,13 +388,13 @@
                 color: var(--subtext);
                 font-weight: 900;
                 &:hover{
-                    color: #000;
+                    color: var(--fourthly);
                 }
             }
         }
     }
     button {
-        background-color: black !important;
+        background-color: var(--fourthly) !important;
         color: var(--white);
         font-weight: bold;
         outline: none;
