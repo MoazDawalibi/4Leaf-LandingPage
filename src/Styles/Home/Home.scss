@@ -69,6 +69,7 @@
                     height: 20px;
                     background-image: url('../../assets/img/UnderCurle.svg');
                     background-size: contain;
+                    color: var(--fourthly);
                     background-repeat: no-repeat;
                     z-index: 3;
                 }
@@ -80,7 +81,8 @@
                 width: 60%;
                 text-align: center;
                 margin-block: 50px;
-                color: var(--subtext);
+                color: var(--fourthly);
+
             }
 
             .Buttons {
