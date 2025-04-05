@@ -21,7 +21,7 @@ const Contact: React.FC = () => {
       <div className='right'>
         <div className='PageLink'>
           <span>{t("Click on this link")}:</span><br/>
-          <Link className='Link' to={"https://www.instagram.com/4leaf_shein?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr"}>
+          <Link className='Link' to={"https://www.instagram.com/4leaf_shipping?igsh=MTRwdm83M2EwNXp3dg%3D%3D&utm_source=qr"}>
             4Leaf@instagram.com 
           </Link>
         </div>
