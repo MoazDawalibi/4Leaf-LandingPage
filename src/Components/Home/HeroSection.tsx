@@ -23,7 +23,7 @@ const HeroSection = () => {
           */}
         </p>
         <div className='Buttons'>
-          <Link to={"https://www.instagram.com/4leaf_shipping?igsh=MTRwdm83M2EwNXp3dg%3D%3D&utm_source=qr"}>
+          <Link to={"https://www.instagram.com/FourLeafOrders_shipping?igsh=MTRwdm83M2EwNXp3dg%3D%3D&utm_source=qr"}>
             <button>
               {t('Our Instagram')}
             </button>
