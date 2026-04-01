@@ -1,8 +1,5 @@
-import React, { useRef } from 'react';
-import { Button, Form } from 'react-bootstrap';
-import emailjs from '@emailjs/browser';
+import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { toast } from 'react-toastify';
 import ContactImage from './ContactImage';
 import { Link } from 'react-router-dom';
 

@@ -2,7 +2,6 @@ import React, { Suspense } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Layout from './Layout/Ui/Layout';
 import { routes } from './config/Routes';
-import { Spin } from 'antd';
 import Loading from './Components/Loading/Loading';
 
 const App = () => {

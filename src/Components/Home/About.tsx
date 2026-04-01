@@ -1,7 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import AboutImage from '../About/AboutImage';
-import { TbPointFilled } from "react-icons/tb";
 
 const About: React.FC = () => {
   const { t } = useTranslation();
