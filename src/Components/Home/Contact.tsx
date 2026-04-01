@@ -21,12 +21,12 @@ const Contact: React.FC = () => {
       <div className='right'>
         <div className='PageLink'>
           <span>{t("Click on this link")}:</span><br/>
-          <Link className='Link' to={"https://www.instagram.com/4leaf_shipping?igsh=MTRwdm83M2EwNXp3dg%3D%3D&utm_source=qr"}>
-            4Leaf@instagram.com 
+          <Link className='Link' to={"https://www.instagram.com/fourleaf_orders?igsh=cG9wcWt6NnIxanVn&utm_source=qr"}>
+            FourLeaf_Orders@instagram.com 
           </Link>
         </div>
         <div className='qr_container'>
-          <img src='/QR.JPG' className='QRCode'/>
+          <img src='/QR.PNG' className='QRCode'/>
 
         </div>
       </div>
