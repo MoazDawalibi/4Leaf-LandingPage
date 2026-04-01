@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import ContactImage from './ContactImage';
 import { Link } from 'react-router-dom';
+import ContactImage from './ContactImage';
 
 const Contact: React.FC = () => {
   const { t } = useTranslation();

@@ -1,4 +1,4 @@
-import { Button, Divider } from 'antd';
+import {  Divider } from 'antd';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
